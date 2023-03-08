@@ -1,6 +1,9 @@
+.index {
+    background-image: url("../img/Background.png");
+}
+
 body {
     font-family: 'Alfa Slab One';
-    background-image: url("../img/Background.png");
     color: #FFFFFF;
 }
 
@@ -10,6 +13,7 @@ body {
     gap: 3rem;
     align-items: center;
     flex-direction: row;
+    background-image: url("../img/Background.png");
 }
 
 .item-nav {
@@ -37,9 +41,11 @@ a:active {
     color: #FFFFFF;
 }
 
-
-
 .botao-contato {
+    margin-right: auto;
+}
+
+.botao-contato, .botao-descubra {
     padding: .5rem;
     border: solid 4px #FFFFFF;
     background-color: #ffffff00;
@@ -47,15 +53,12 @@ a:active {
     font-family:'Courier New', Courier, monospace;
 }
 
-.botao-contato:hover {
+.botao-contato:hover, .botao-descubra:hover {
     color: #000000;
     background-color: #FFFFFF;
     font-weight: bold;
 }
 
-.contato {
-    align-self: flex-start;
-}
 
 .corpo {
     display: flex;
@@ -79,4 +82,8 @@ a:active {
 
 .corpo-texto2 {
     text-shadow: 2px 2px #000000;
+}
+
+.quem-somos {
+    background-color: #1a1a1a;
 }
