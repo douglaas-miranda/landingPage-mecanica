@@ -85,7 +85,7 @@ a:active {
     text-shadow: 2px 2px #000000;
 }
 
-.corpo2 {
+.corpo2, .corpo3 {
     background-color: #1a1a1a;
 }
 
@@ -128,6 +128,88 @@ a:active {
     font-size: 90px;
     text-align: end;
     color: #585858;
+
+}
+
+.container-corpo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.texto1-corpo3, .texto2-corpo3, .texto3-corpo3, .texto4-corpo3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+/*     margin-top: 4rem; */
+    text-align: center;
+}
+
+
+.corpo3-categoria1 {
+    display: flex;
+    flex-direction: column;
+/*     gap: 2rem; */
+    padding: 2rem 1rem 0rem 1rem;
+    background-image: url("../img/produtos-pop.png");
+    background-size: auto;
+    width: 260px;
+    height: 195px;
+}
+
+
+.corpo3-categoria2 {
+    display: flex;
+    flex-direction: column;
+/*     gap: 2rem; */
+    padding: 2rem 1rem 0rem 1rem;
+    background-image: url("../img/reparos.png");
+    background-size: auto;
+    width: 260px;
+    height: 195px;
+}
+
+.corpo3-categoria3 {
+    display: flex;
+    flex-direction: column;
+/*     gap: 2rem; */
+    padding: 2rem 1rem 0rem 1rem;
+    background-image: url("../img/ajuste.png");
+    background-size: auto;
+    width: 260px;
+    height: 195px;
+}
+
+.corpo3-categoria4 {
+    display: flex;
+    flex-direction: column;
+/*     gap: 2rem; */
+    padding: 2rem 1rem 0rem 1rem;
+    background-image: url("../img/orcamentos.png");
+    background-size: auto;
+    width: 260px;
+    height: 195px;
+}
+
+.corpo3-botao {
+    font-family: 'Montserrat';
+    background-color: #000000;
+    margin-top: 1rem;
+}
+
+.corpo3-icone {
+    align-self: center;
+    width: 25px;
+    margin-top: 4rem;
+}
+
+.servicos-layout {
+    font-size: 90px;
+    text-align: start;
+    color: #585858;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
 
 }
 
