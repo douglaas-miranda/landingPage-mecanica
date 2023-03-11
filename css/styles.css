@@ -95,7 +95,7 @@ a:active {
     text-shadow: 2px 2px #000000;
 }
 
-.corpo2, .corpo3, .corpo4 {
+.corpo2, .corpo3, .corpo4, .corpo5 {
     background-color: #1a1a1a;
 }
 
@@ -254,6 +254,62 @@ a:active {
     width: 85%;
     align-self: center;
     justify-self: center;
+}
+
+.beneficios {
+    text-align: left;
+}
+
+.container-corpo5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem;
+    flex-wrap: wrap;
+}
+
+.texto-corpo5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.corpo5-descricao{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 12px;
+}
+
+.corpo5-categoria1, .corpo5-categoria2, .corpo5-categoria3 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    gap: 1rem;
+    border-radius: 2rem;
+}
+
+.corpo5-categoria1 {
+    background-color:#00DDA880;
+}
+
+.corpo5-categoria2 {
+    background-color:#CF292999;
+
+}
+
+.corpo5-categoria3 {
+    background-color:#0058DD99;
+
+}
+
+.img-corpo5 {
+    width: 120px;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    bottom: 70px
 }
 
 @media screen and (max-width: 945px) {
