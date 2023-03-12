@@ -21,7 +21,7 @@ body {
     top: 0;
     left: auto;
     /* padding-left: 20%; */
-    padding-right: 50%;
+    padding-right: 100%;
 }
 
 .lista-nav {
@@ -99,7 +99,7 @@ a:active {
     background-color: #1a1a1a;
 }
 
-.corpo5, .corpo6, .rodape {
+.corpo5, .corpo6, .rodape, .mapa-beneficios {
     background-color: #161616;
 }
 
@@ -151,6 +151,7 @@ a:active {
     align-items: center;
     padding-bottom: 4rem;
     padding-top: 4rem;
+    flex-wrap: wrap;
 }
 
 .texto1-corpo3, .texto2-corpo3, .texto3-corpo3, .texto4-corpo3 {
@@ -232,6 +233,7 @@ a:active {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .corpo4-categoria1, .corpo4-categoria2, .corpo4-categoria3, .corpo4-categoria4 {
@@ -315,6 +317,10 @@ a:active {
     align-self: center;
 }
 
+.mapa-beneficios {
+    text-align: center;
+}
+
 .corpo6-categoria1 {
     display: flex;
     gap: 2rem;
@@ -375,6 +381,28 @@ a:active {
 
 .texto-rodape {
     font-family: 'Montserrat';
+}
+
+.container-imgs {
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem 0;
+    margin: 0 1rem 0 1rem;
+}
+
+.rodape-info1{
+    display: flex;
+    gap: 1rem;
+}
+
+.texto-info {
+    font-family: 'Montserrat';
+    font-size: 10px;
 }
 
 @media screen and (max-width: 945px) {
