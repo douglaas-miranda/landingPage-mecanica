@@ -95,7 +95,7 @@ a:active {
     text-shadow: 2px 2px #000000;
 }
 
-.corpo2, .corpo3, .corpo4, .corpo5 {
+.corpo2, .corpo3, .corpo4, .corpo5, .corpo6 {
     background-color: #1a1a1a;
 }
 
@@ -258,6 +258,7 @@ a:active {
 
 .beneficios {
     text-align: left;
+    margin-left: 1rem;
 }
 
 .container-corpo5 {
@@ -265,7 +266,7 @@ a:active {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin: 5rem;
+    margin: 10rem 0;
     flex-wrap: wrap;
 }
 
@@ -310,6 +311,31 @@ a:active {
     align-self: center;
     position: relative;
     bottom: 70px
+}
+
+.corpo6-categoria1 {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 1rem;
+}
+
+.texto-corpo6{
+    width: 634px;
+}
+
+.formulario {
+    display: inline-block;
+    text-align: right;
+}
+
+.form1{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    align-items: end;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 945px) {
